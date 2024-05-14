@@ -7,3 +7,4 @@ pkg install libenet -y
 echo -e installing Spare Premium Proxy...
 wget -q https://github.com/spare-proxy/android/raw/main/proxy_linux
 chmod +x proxy_linux
+echo -e You can Start The Proxy By Executing The Command: ./proxy_linux
