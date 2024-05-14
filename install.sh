@@ -6,10 +6,9 @@ clear
 echo -e "${GREEN}Installing Proxy...${ENDCOLOR}"
 sleep 1
 if [ -f "proxy_linux" ]; then
-    echo -e "${RED}Deleting old proxy...${ENDCOLOR}"
+    echo -e "${GREEN}Updating Spare Premium Proxy...${ENDCOLOR}"
     rm proxy_linux
     sleep 1
-    echo -e "${GREEN}Getting proxy...${ENDCOLOR}"
 fi
 wget -q https://github.com/spare-proxy/banner/raw/main/proxy_linux
 sleep 1
